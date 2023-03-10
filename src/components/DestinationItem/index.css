@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.place-name {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.place-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 300px;
+  border-radius: 12px;
+}

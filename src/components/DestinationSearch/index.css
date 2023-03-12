@@ -6,9 +6,25 @@
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .heading {
   font-family: 'Roboto';
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   /* text-align: center; */
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.searchIcon {
+  width: 20px;
 }

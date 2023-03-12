@@ -6,9 +6,11 @@
 .place-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .image {
+  min-width: 50px;
   width: 300px;
   border-radius: 12px;
 }
